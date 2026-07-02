@@ -1,4 +1,9 @@
+using System.Text;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,10 +22,51 @@ builder.Services.AddCors(options =>
     });
 });
 
+const string SECRET_KEY =
+    "THIS_IS_MY_SUPER_SECRET_KEY_FOR_DEMO_ONLY_12345";
+
+builder.Services
+    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        // options.TokenValidationParameters =
+        //     new TokenValidationParameters
+        //     {
+        //         ValidateIssuer = false,
+        //         ValidateAudience = false,
+        //         ValidateLifetime = true,
+        //         ValidateIssuerSigningKey = true,
+        //         IssuerSigningKey =
+        //             new SymmetricSecurityKey(
+        //                 Encoding.UTF8.GetBytes(SECRET_KEY))
+        //     };
+        
+        options.TokenValidationParameters =
+            new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidIssuer = "my-identity-server",
+
+                ValidateAudience = true,
+                ValidAudience = "movies-api",
+
+                ValidateLifetime = true,
+
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey =
+                    new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(SECRET_KEY))
+            };
+    });
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
 app.UseCors("React");
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -34,6 +80,37 @@ var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+// app.MapPost("/token", () =>
+// {
+//     string SECRET_KEY =
+//         "THIS_IS_MY_SUPER_SECRET_KEY_FOR_DEMO_ONLY_12345";
+//
+//     
+//     var claims = new[]
+//     {
+//         new Claim(ClaimTypes.Name, "react-user")
+//     };
+//
+//     var key =
+//         new SymmetricSecurityKey(
+//             Encoding.UTF8.GetBytes(SECRET_KEY));
+//
+//     var credentials =
+//         new SigningCredentials(
+//             key,
+//             SecurityAlgorithms.HmacSha256);
+//
+//     var token = new JwtSecurityToken(
+//         expires: DateTime.UtcNow.AddHours(1),
+//         claims: claims,
+//         signingCredentials: credentials);
+//
+//     return Results.Ok(new
+//     {
+//         token = new JwtSecurityTokenHandler().WriteToken(token)
+//     });
+// });
 
 app.MapGet("/weatherforecast", () =>
     {
@@ -56,7 +133,7 @@ app.MapGet("/weatherforecast", () =>
 //     })
 //     .WithName("GetMoviesList");
 
-app.MapGet("/movies", () =>
+app.MapGet("/movies", [Microsoft.AspNetCore.Authorization.Authorize] () =>
     {
         var path = "Data/movies.json";
         var json = File.ReadAllText(path);

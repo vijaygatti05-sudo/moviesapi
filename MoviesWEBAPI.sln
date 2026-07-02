@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesWEBAPI", "MoviesWEBAPI\MoviesWEBAPI.csproj", "{8142FAD4-EBFE-47FD-86DA-4C81D8B884F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyIdentityAPI", "MyIdentityAPI\MyIdentityAPI.csproj", "{378C7688-7E48-46B5-A9A7-5C950CC77C89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{8142FAD4-EBFE-47FD-86DA-4C81D8B884F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8142FAD4-EBFE-47FD-86DA-4C81D8B884F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8142FAD4-EBFE-47FD-86DA-4C81D8B884F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378C7688-7E48-46B5-A9A7-5C950CC77C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378C7688-7E48-46B5-A9A7-5C950CC77C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378C7688-7E48-46B5-A9A7-5C950CC77C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378C7688-7E48-46B5-A9A7-5C950CC77C89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

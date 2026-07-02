@@ -7,8 +7,16 @@
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/MoviesWEBAPI.runtimeconfig.json
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/MoviesWEBAPI.dll
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/MoviesWEBAPI.pdb
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.csproj.AssemblyReference.cache
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/rpswa.dswa.cache.json
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,6 +25,7 @@
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.csproj.CoreCompileInputs.cache
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.MvcApplicationPartsAssemblyInfo.cs
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.sourcelink.json
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/rjimswa.dswa.cache.json
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
@@ -32,3 +41,12 @@
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.pdb
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/MoviesWEBAPI.genruntimeconfig.cache
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/obj/Debug/net10.0/ref/MoviesWEBAPI.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Asp.Versioning.Abstractions.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Asp.Versioning.Http.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Asp.Versioning.Mvc.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Asp.Versioning.WebApi.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Asp.Versioning.WebApi.ApiExplorer.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/System.Net.Http.Formatting.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/System.Web.Http.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Newtonsoft.Json.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MoviesWEBAPI/bin/Debug/net10.0/Newtonsoft.Json.Bson.dll
