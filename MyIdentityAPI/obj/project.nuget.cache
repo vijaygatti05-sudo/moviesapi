@@ -1,17 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "MiN303iZd8Q=",
+  "dgSpecHash": "EDGZBMrDFMw=",
   "success": true,
   "projectFilePath": "/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/MyIdentityAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/lathavijay/.nuget/packages/duende.identitymodel/8.1.0/duende.identitymodel.8.1.0.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/duende.identityserver/8.0.2/duende.identityserver.8.0.2.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/duende.identityserver.storage/8.0.2/duende.identityserver.storage.8.0.2.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/duende.private.licensing/2.0.1/duende.private.licensing.2.0.1.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/10.0.7/microsoft.aspnetcore.authentication.openidconnect.10.0.7.nupkg.sha512",
     "/Users/lathavijay/.nuget/packages/microsoft.aspnetcore.openapi/10.0.7/microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
     "/Users/lathavijay/.nuget/packages/microsoft.bcl.cryptography/10.0.2/microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/microsoft.extensions.caching.hybrid/10.0.0/microsoft.extensions.caching.hybrid.10.0.0.nupkg.sha512",
     "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.abstractions/8.19.1/microsoft.identitymodel.abstractions.8.19.1.nupkg.sha512",
     "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.19.1/microsoft.identitymodel.jsonwebtokens.8.19.1.nupkg.sha512",
     "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.logging/8.19.1/microsoft.identitymodel.logging.8.19.1.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
     "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.tokens/8.19.1/microsoft.identitymodel.tokens.8.19.1.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.tokens.saml/8.18.0/microsoft.identitymodel.tokens.saml.8.18.0.nupkg.sha512",
+    "/Users/lathavijay/.nuget/packages/microsoft.identitymodel.xml/8.18.0/microsoft.identitymodel.xml.8.18.0.nupkg.sha512",
     "/Users/lathavijay/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
-    "/Users/lathavijay/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
+    "/Users/lathavijay/.nuget/packages/system.identitymodel.tokens.jwt/8.18.0/system.identitymodel.tokens.jwt.8.18.0.nupkg.sha512"
   ],
   "logs": [
     {

@@ -37,3 +37,15 @@
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/obj/Debug/net10.0/MyIdentityAPI.pdb
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/obj/Debug/net10.0/MyIdentityAPI.genruntimeconfig.cache
 /Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/obj/Debug/net10.0/ref/MyIdentityAPI.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Duende.IdentityModel.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Duende.IdentityServer.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Duende.IdentityServer.Storage.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Duende.Private.Licensing.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Microsoft.Bcl.Cryptography.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Microsoft.Extensions.Caching.Hybrid.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.Saml.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Xml.dll
+/Users/lathavijay/RiderProjects/MoviesWEBAPI/MyIdentityAPI/bin/Debug/net10.0/keys/is-signing-key-AB1F8693EDA180C277773A2AEE87D581.json
